@@ -1,0 +1,9 @@
+<h1>URL Shortcode Generator</h1>
+<h2>Top Shortcodes</h2>
+<% @shortcodes.each do |shortcode| %>
+    <div class="card card-body bg-light">
+        <p>Original: <%= shortcode.original_url.html_safe %></p>
+        <p>Shortcode: <%= link_to shortcode.short_url, goto_path(shortcode.short_url) %></p>
+        <p>Popularity: <%= shortcode.popularity %></p>
+    </div><br>
+<% end %>
