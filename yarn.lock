@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@rails/actioncable@^6.0.0":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-6.0.3.tgz#722b4b639936129307ddbab3a390f6bcacf3e7bc"
-  integrity sha512-I01hgqxxnOgOtJTGlq0ZsGJYiTEEiSGVEGQn3vimZSqEP1HqzyFNbzGTq14Xdyeow2yGJjygjoFF1pmtE+SQaw==
+"@rails/actioncable@^6.1.6":
+  version "6.1.6"
+  resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-6.1.6.tgz#ed0e926112fd476c3ac3c52bd18d39d84624cd62"
+  integrity sha512-gD8zYT8u8AA4wulIW7BN4x6tPSR1Ldt7jXDs3ntBKdgtvqiohBJFEKn8YJSDr7vrCpM/hYuEJxYl/4oJvvENfA==
 
 "@rails/activestorage@^6.0.0":
   version "6.0.3"
